@@ -1,0 +1,662 @@
+<html lang="pt-BR" class="scroll-smooth">
+<head> <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18421081772"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18421081772');
+</script>
+
+  <!-- Event snippet for Visualização de página conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18421081772/w4EECOO-u_wcEKzN7c9E',
+      'value': 1.0,
+      'currency': 'BRL'
+  });
+</script>
+
+  <!-- Event snippet for Visualização de página conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18421081772/w4EECOO-u_wcEKzN7c9E',
+      'value': 1.0,
+      'currency': 'BRL',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balai Kayu | Arte, Decoração & Móveis Exclusivos</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            wood: '#3D2817',
+                            woodlight: '#5C3E26',
+                            sand: '#F7F4EF',
+                            cream: '#EAE3D2',
+                            gold: '#C5A059',
+                            goldlight: '#D4AF37',
+                            dark: '#1C1917',
+                            muted: '#78716C'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(197, 160, 89, 0.15);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(28, 25, 23, 0.82) 0%, rgba(61, 40, 23, 0.75) 100%);
+        }
+        .gold-border-glow:hover {
+            box-shadow: 0 0 25px rgba(197, 160, 89, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-brand-sand text-brand-dark font-sans antialiased selection:bg-brand-gold selection:text-white">
+
+    <!-- Header / Navegação -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-brand-sand/90 backdrop-blur-md border-b border-brand-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-lg bg-brand-wood text-brand-gold flex items-center justify-center font-serif text-xl font-bold shadow-md group-hover:bg-brand-gold group-hover:text-brand-wood transition-colors">
+                    BK
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-serif text-xl sm:text-2xl font-bold tracking-wider text-brand-wood leading-none">BALAI KAYU</span>
+                    <span class="text-[10px] uppercase tracking-[0.25em] text-brand-gold font-semibold mt-1">Arte & Decoração</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="#inicio" class="text-sm font-medium text-brand-dark hover:text-brand-gold transition-colors">Início</a>
+                <a href="#servicos" class="text-sm font-medium text-brand-dark hover:text-brand-gold transition-colors">Serviços & Produtos</a>
+                <a href="#sobre" class="text-sm font-medium text-brand-dark hover:text-brand-gold transition-colors">Sobre Nós</a>
+                <a href="#dados-cadastrais" class="text-sm font-medium text-brand-dark hover:text-brand-gold transition-colors">Dados Cadastrais</a>
+                <a href="#contato" class="text-sm font-medium text-brand-dark hover:text-brand-gold transition-colors">Contato</a>
+            </nav>
+
+            <!-- CTA Header Button -->
+            <div class="hidden lg:flex items-center gap-4">
+                <a href="https://www.balai.com.br/" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-brand-gold hover:bg-brand-goldlight text-white font-medium text-sm transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                    <span>Loja Virtual</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-brand-wood p-2 focus:outline-none" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-sand border-b border-brand-gold/20 px-4 pt-2 pb-6 space-y-3">
+            <a href="#inicio" class="block py-2 text-brand-dark hover:text-brand-gold font-medium">Início</a>
+            <a href="#servicos" class="block py-2 text-brand-dark hover:text-brand-gold font-medium">Serviços & Produtos</a>
+            <a href="#sobre" class="block py-2 text-brand-dark hover:text-brand-gold font-medium">Sobre Nós</a>
+            <a href="#dados-cadastrais" class="block py-2 text-brand-dark hover:text-brand-gold font-medium">Dados Cadastrais</a>
+            <a href="#contato" class="block py-2 text-brand-dark hover:text-brand-gold font-medium">Contato</a>
+            <div class="pt-4 border-t border-brand-cream">
+                <a href="https://www.balai.com.br/" target="_blank" rel="noopener noreferrer" 
+                   class="w-full text-center block px-5 py-3 rounded-xl bg-brand-gold text-white font-medium shadow-md">
+                    Visitar Loja Virtual / Site Oficial
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="relative min-h-screen pt-28 pb-16 flex items-center justify-center bg-cover bg-center overflow-hidden" 
+             style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop');">
+        
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 hero-gradient"></div>
+
+        <div class="relative max-w-5xl mx-auto px-4 sm:px-6 text-center text-white z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-gold/20 border border-brand-gold/40 text-brand-gold text-xs sm:text-sm font-semibold uppercase tracking-widest mb-6 backdrop-blur-md">
+                <i class="fa-solid fa-gem"></i> Curadoria & Arte Exclusiva
+            </div>
+            
+            <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-6">
+                Sofisticação e Tradição para Reinventar o Seu Espaço
+            </h1>
+            
+            <p class="text-base sm:text-xl text-stone-200 font-light max-w-3xl mx-auto mb-10 leading-relaxed">
+                Móveis nobres, objetos de decoração refinados e peças raras com a autenticidade e excelência de quem é referência em artigos de luxo no Rio de Janeiro há mais de duas décadas.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+                <!-- Redirecionamento Principal -->
+                <a href="https://www.balai.com.br/" target="_blank" rel="noopener noreferrer" 
+                   class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-gold hover:bg-brand-goldlight text-white font-semibold text-base transition-all duration-300 shadow-xl hover:shadow-2xl gold-border-glow flex items-center justify-center gap-3 group">
+                    <span>Acesse Nosso Site Oficial</span>
+                    <i class="fa-solid fa-arrow-right transition-transform group-hover:translate-x-1"></i>
+                </a>
+                
+                <a href="#dados-cadastrais" 
+                   class="w-full sm:w-auto px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/30 font-semibold text-base transition-all duration-300 backdrop-blur-md flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-building text-brand-gold"></i>
+                    <span>Informações da Empresa</span>
+                </a>
+            </div>
+
+            <!-- Highlights Banner -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 pt-12 border-t border-white/10 text-stone-300">
+                <div class="p-2">
+                    <p class="font-serif text-2xl sm:text-3xl font-bold text-brand-gold">2002</p>
+                    <p class="text-xs sm:text-sm text-stone-300 mt-1">Ano de Fundação</p>
+                </div>
+                <div class="p-2">
+                    <p class="font-serif text-2xl sm:text-3xl font-bold text-brand-gold">+20 Anos</p>
+                    <p class="text-xs sm:text-sm text-stone-300 mt-1">De Excelência</p>
+                </div>
+                <div class="p-2">
+                    <p class="font-serif text-2xl sm:text-3xl font-bold text-brand-gold">100%</p>
+                    <p class="text-xs sm:text-sm text-stone-300 mt-1">Acervo Autêntico</p>
+                </div>
+                <div class="p-2">
+                    <p class="font-serif text-2xl sm:text-3xl font-bold text-brand-gold">RJ & SP</p>
+                    <p class="text-xs sm:text-sm text-stone-300 mt-1">Atendimento Especializado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços & Produtos (Destaque Principal) -->
+    <section id="servicos" class="py-24 bg-brand-sand relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-gold font-semibold text-sm uppercase tracking-widest">Nossa Especialidade</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-brand-wood mt-2 mb-4">Principais Serviços & Diferenciais</h2>
+                <div class="w-20 h-1 bg-brand-gold mx-auto rounded-full mb-6"></div>
+                <p class="text-stone-600 text-base sm:text-lg">
+                    Unimos arte, design atemporal e matérias-primas de altíssima qualidade para oferecer soluções completas em decoração de ambientes sofisticados.
+                </p>
+            </div>
+
+            <!-- Grid de Serviços -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Card 1 -->
+                <div class="glass-card rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-brand-cream hover:border-brand-gold/50 group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-wood/10 text-brand-wood group-hover:bg-brand-wood group-hover:text-brand-gold flex items-center justify-center text-2xl mb-6 transition-colors duration-300">
+                        <i class="fa-solid fa-couch"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-wood mb-3">Curadoria & Importação Exclusiva</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                        Seleção rigorosa de peças artesanais, esculturas e móveis importados, trazendo autenticidade e peças únicas com história para a sua decoração.
+                    </p>
+                    <a href="https://www.balai.com.br/" target="_blank" class="inline-flex items-center text-xs font-bold text-brand-gold uppercase tracking-wider hover:text-brand-wood transition-colors">
+                        Explorar Catálogo <i class="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="glass-card rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-brand-cream hover:border-brand-gold/50 group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-wood/10 text-brand-wood group-hover:bg-brand-wood group-hover:text-brand-gold flex items-center justify-center text-2xl mb-6 transition-colors duration-300">
+                        <i class="fa-solid fa-tree"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-wood mb-3">Móveis em Madeira Nobre</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                        Acabamentos impecáveis em madeiras certificadas. Peças duráveis que combinam a força rústica com a elegância do design contemporâneo.
+                    </p>
+                    <a href="https://www.balai.com.br/" target="_blank" class="inline-flex items-center text-xs font-bold text-brand-gold uppercase tracking-wider hover:text-brand-wood transition-colors">
+                        Ver Coleção de Móveis <i class="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="glass-card rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-brand-cream hover:border-brand-gold/50 group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-wood/10 text-brand-wood group-hover:bg-brand-wood group-hover:text-brand-gold flex items-center justify-center text-2xl mb-6 transition-colors duration-300">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-wood mb-3">Consultoria de Interiores</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                        Suporte técnico especializado para composição de ambientes residenciais e corporativos, garantindo harmonia entre volumes, cores e texturas.
+                    </p>
+                    <a href="#contato" class="inline-flex items-center text-xs font-bold text-brand-gold uppercase tracking-wider hover:text-brand-wood transition-colors">
+                        Solicitar Consultoria <i class="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="glass-card rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-brand-cream hover:border-brand-gold/50 group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-wood/10 text-brand-wood group-hover:bg-brand-wood group-hover:text-brand-gold flex items-center justify-center text-2xl mb-6 transition-colors duration-300">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-wood mb-3">Atendimento para Arquitetos</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                        Condições e atendimento diferenciado para profissionais da área de arquitetura e design de interiores no desenvolvimento de seus projetos.
+                    </p>
+                    <a href="#contato" class="inline-flex items-center text-xs font-bold text-brand-gold uppercase tracking-wider hover:text-brand-wood transition-colors">
+                        Falar com Especialista <i class="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="glass-card rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-brand-cream hover:border-brand-gold/50 group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-wood/10 text-brand-wood group-hover:bg-brand-wood group-hover:text-brand-gold flex items-center justify-center text-2xl mb-6 transition-colors duration-300">
+                        <i class="fa-solid fa-truck-ramp-box"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-wood mb-3">Logística Especializada</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                        Transporte cuidadoso e manuseio seguro de peças frágeis e volumosas com alcance para o Rio de Janeiro, São Paulo e todo o Brasil.
+                    </p>
+                    <a href="https://www.balai.com.br/" target="_blank" class="inline-flex items-center text-xs font-bold text-brand-gold uppercase tracking-wider hover:text-brand-wood transition-colors">
+                        Saiba Mais <i class="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Card CTA Extra -->
+                <div class="bg-gradient-to-br from-brand-wood to-brand-woodlight rounded-2xl p-8 text-white flex flex-col justify-between shadow-xl relative overflow-hidden">
+                    <div class="absolute -right-6 -bottom-6 w-32 h-32 bg-brand-gold/10 rounded-full blur-2xl"></div>
+                    <div>
+                        <span class="text-brand-gold font-semibold text-xs uppercase tracking-widest">Loja Online</span>
+                        <h3 class="font-serif text-2xl font-bold text-white mt-2 mb-3">Conheça o Catálogo Completo em Nosso E-commerce</h3>
+                        <p class="text-stone-300 text-sm mb-6">
+                            Acesse fotos exclusivas, medidas, valores e faça seu pedido direto na loja virtual oficial da Balai Kayu.
+                        </p>
+                    </div>
+                    <a href="https://www.balai.com.br/" target="_blank" rel="noopener noreferrer"
+                       class="w-full py-3 px-6 rounded-xl bg-brand-gold hover:bg-brand-goldlight text-white font-semibold text-center transition-colors shadow-md flex items-center justify-center gap-2">
+                        <span>Acessar Balai.com.br</span>
+                        <i class="fa-solid fa-external-link text-xs"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre a Empresa -->
+    <section id="sobre" class="py-20 bg-white border-y border-brand-cream relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                
+                <!-- Imagem Ilustrativa de Decoração -->
+                <div class="relative">
+                    <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1200&auto=format&fit=crop" 
+                             alt="Balai Kayu Ambiente Decorado" 
+                             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                             onerror="this.src='https://placehold.co/800x600/3D2817/C5A059?text=Balai+Kayu+Decor'">
+                    </div>
+                    <!-- Badge Flutuante -->
+                    <div class="absolute -bottom-6 -right-6 hidden sm:flex bg-brand-wood text-white p-6 rounded-2xl shadow-xl max-w-xs border border-brand-gold/30">
+                        <i class="fa-solid fa-award text-3xl text-brand-gold mr-4 mt-1"></i>
+                        <div>
+                            <p class="font-bold text-lg leading-tight">Mais de 2 Décadas</p>
+                            <p class="text-xs text-stone-300 mt-1">Garantindo autenticidade e beleza para o seu lar.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conteúdo Institucional -->
+                <div>
+                    <span class="text-brand-gold font-semibold text-sm uppercase tracking-widest">Nossa Trajetória</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-wood mt-2 mb-6 leading-tight">
+                        Tradição, Nobreza em Madeiras e Paixão por Decoração
+                    </h2>
+                    <p class="text-stone-600 text-base leading-relaxed mb-4">
+                        A **Balai Kayu Comércio de Artigos de Decoração LTDA** foi fundada no dia 02 de Agosto de 2002. Com matriz estrategicamente localizada no tradicional bairro de São Cristóvão, no Rio de Janeiro, construímos uma história marcada pelo bom gosto e rigor técnico na seleção de produtos.
+                    </p>
+                    <p class="text-stone-600 text-base leading-relaxed mb-6">
+                        Especializada em peças exclusivas em madeira, elementos ornamentais e artigos de arte decorativa, atendemos clientes exigentes, projetistas e escritórios de arquitetura em todo o país, mantendo o compromisso constante com a excelência no atendimento e confiabilidade cadastral.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-4 border-t border-brand-cream pt-6">
+                        <div>
+                            <p class="font-bold text-brand-wood text-lg">Matriz no RJ</p>
+                            <p class="text-xs text-stone-500">São Cristóvão - Rio de Janeiro</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-brand-wood text-lg">Inscrição em SP</p>
+                            <p class="text-xs text-stone-500">Atendimento a Projetos em SP</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Dados Cadastrais e Registro -->
+    <section id="dados-cadastrais" class="py-24 bg-brand-sand">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-gold font-semibold text-sm uppercase tracking-widest">Transparência & Conformidade</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-brand-wood mt-2 mb-4">Informações de Registro CNPJ</h2>
+                <div class="w-20 h-1 bg-brand-gold mx-auto rounded-full mb-6"></div>
+                <p class="text-stone-600 text-base">
+                    Confira abaixo os dados públicos e cadastrais oficiais da empresa para emissão de notas fiscais, cadastro de fornecedores e parceiros corporativos.
+                </p>
+            </div>
+
+            <!-- Card de Dados Cadastrais -->
+            <div class="glass-card rounded-3xl shadow-xl overflow-hidden border border-brand-gold/20 max-w-5xl mx-auto">
+                <div class="bg-brand-wood px-6 py-6 text-white flex flex-wrap items-center justify-between gap-4">
+                    <div>
+                        <span class="text-xs text-brand-gold uppercase tracking-wider font-semibold">Razão Social</span>
+                        <h3 class="font-serif text-xl sm:text-2xl font-bold text-white">BALAI KAYU COMERCIO DE ARTIGOS DE DECORACAO LTDA</h3>
+                    </div>
+                    <span class="px-4 py-1.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Situação: Ativa
+                    </span>
+                </div>
+
+                <div class="p-6 sm:p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-sm">
+                    
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">CNPJ</span>
+                        <p class="font-mono font-bold text-brand-wood text-base">05.235.345/0001-48</p>
+                        <span class="text-[11px] text-stone-500">Formato limpo: 05235345000148</span>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Inscrição Estadual (RJ)</span>
+                        <p class="font-mono font-bold text-brand-wood text-base">77.436.38-3</p>
+                        <span class="text-[11px] text-stone-500">Estado de Origem (RJ)</span>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Inscrição Estadual (SP)</span>
+                        <p class="font-mono font-bold text-brand-wood text-base">819.012.785.113</p>
+                        <span class="text-[11px] text-stone-500">Inscrição Auxiliar</span>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Data de Abertura</span>
+                        <p class="font-bold text-brand-wood text-base">02/08/2002</p>
+                        <span class="text-[11px] text-stone-500">Mais de 20 anos de mercado</span>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Porte da Empresa</span>
+                        <p class="font-bold text-brand-wood text-base">Empresa de Pequeno Porte (EPP)</p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Natureza Jurídica</span>
+                        <p class="font-bold text-brand-wood text-base">Sociedade Empresária Limitada</p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Opção pelo Simples</span>
+                        <p class="font-bold text-brand-wood text-base">Sim <span class="text-xs font-normal text-stone-500">(desde 01/01/2024)</span></p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Opção pelo MEI</span>
+                        <p class="font-bold text-brand-wood text-base">Não</p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Capital Social</span>
+                        <p class="font-bold text-brand-gold text-base">R$ 200.000,00</p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Tipo de Estabelecimento</span>
+                        <p class="font-bold text-brand-wood text-base">Matriz</p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="p-4 rounded-xl bg-white/60 border border-brand-cream">
+                        <span class="text-xs text-brand-muted uppercase font-semibold block mb-1">Data da Situação Cadastral</span>
+                        <p class="font-bold text-brand-wood text-base">03/11/2005</p>
+                    </div>
+
+                    <!-- item extra CTA -->
+                    <div class="p-4 rounded-xl bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-brand-wood uppercase font-bold block">Precisa de Nota Fiscal?</span>
+                            <span class="text-[11px] text-stone-600">Solicite via e-mail direto</span>
+                        </div>
+                        <a href="mailto:correto-atendimento@balai.com.br" class="text-brand-wood hover:text-brand-gold font-bold text-sm">
+                            <i class="fa-solid fa-envelope text-lg"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato e Localização -->
+    <section id="contato" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-gold font-semibold text-sm uppercase tracking-widest">Canais de Atendimento</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-brand-wood mt-2 mb-4">Entre em Contato</h2>
+                <div class="w-20 h-1 bg-brand-gold mx-auto rounded-full mb-6"></div>
+                <p class="text-stone-600 text-base">
+                    Estamos à disposição para dúvidas, orçamentos, vendas corporativas e suporte a projetos de decoração.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                <!-- Telefone Card -->
+                <div class="glass-card rounded-2xl p-8 border border-brand-cream text-center hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 rounded-full bg-brand-wood/10 text-brand-wood flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-wood mb-4">Central de Telefone</h3>
+                    <div class="space-y-2">
+                        <a href="tel:2132141900" class="block text-stone-700 hover:text-brand-gold font-semibold text-lg transition-colors">
+                            (21) 3214-1900
+                        </a>
+                        <a href="tel:2125713190" class="block text-stone-700 hover:text-brand-gold font-semibold text-lg transition-colors">
+                            (21) 2571-3190
+                        </a>
+                        <a href="tel:2125322631" class="block text-stone-700 hover:text-brand-gold font-semibold text-lg transition-colors">
+                            (21) 2532-2631
+                        </a>
+                    </div>
+                    <p class="text-xs text-stone-400 mt-4">Atendimento em horário comercial</p>
+                </div>
+
+                <!-- Email Card -->
+                <div class="glass-card rounded-2xl p-8 border border-brand-cream text-center hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 rounded-full bg-brand-wood/10 text-brand-wood flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-wood mb-4">E-mail Oficial</h3>
+                    <a href="mailto:correto-atendimento@balai.com.br" class="inline-block text-brand-gold hover:text-brand-wood font-semibold text-base break-all transition-colors mb-4">
+                        correto-atendimento@balai.com.br
+                    </a>
+                    <p class="text-stone-600 text-sm">
+                        Envie-nos sua dúvida, pedido de orçamento ou dados para faturamento.
+                    </p>
+                </div>
+
+                <!-- Endereço Card -->
+                <div class="glass-card rounded-2xl p-8 border border-brand-cream text-center hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 rounded-full bg-brand-wood/10 text-brand-wood flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-wood mb-2">Endereço / Correspondência</h3>
+                    <p class="text-stone-700 font-medium text-sm leading-relaxed mb-4">
+                        Rua Euclides da Cunha, 246<br>
+                        São Cristóvão — Rio de Janeiro / RJ<br>
+                        CEP: 20940-060
+                    </p>
+                    <a href="https://maps.google.com/?q=Rua+Euclides+da+Cunha,+246,+Sao+Cristovao,+Rio+de+Janeiro+-+RJ,+20940-060" 
+                       target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-brand-wood text-white text-xs font-semibold hover:bg-brand-gold transition-colors">
+                        <i class="fa-solid fa-map-location-dot"></i> Abrir no Google Maps
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Banner do Site Oficial -->
+            <div class="mt-16 bg-gradient-to-r from-brand-wood via-brand-woodlight to-brand-wood rounded-3xl p-8 sm:p-12 text-center text-white relative overflow-hidden shadow-2xl">
+                <div class="max-w-3xl mx-auto relative z-10">
+                    <h3 class="font-serif text-2xl sm:text-4xl font-bold mb-4">Deseja Comprar Nossos Produtos Agora?</h3>
+                    <p class="text-stone-200 text-base mb-8">
+                        Visite nossa loja virtual completa e confira todo o nosso acervo exclusivo de decoração com entregas para todo o Brasil.
+                    </p>
+                    <a href="https://www.balai.com.br/" target="_blank" rel="noopener noreferrer" 
+                       class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-brand-gold hover:bg-brand-goldlight text-white font-bold text-lg shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+                        <span>Ir para Balai.com.br</span>
+                        <i class="fa-solid fa-globe"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-brand-dark text-white pt-16 pb-8 border-t border-brand-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                
+                <!-- Coluna 1 -->
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-8 h-8 rounded-lg bg-brand-gold text-brand-wood flex items-center justify-center font-serif text-lg font-bold">
+                            BK
+                        </div>
+                        <span class="font-serif text-lg font-bold tracking-wider text-white">BALAI KAYU</span>
+                    </div>
+                    <p class="text-stone-400 text-xs leading-relaxed mb-4">
+                        Comércio de Artigos de Decoração LTDA. Excelência e elegância em móveis e objetos decorativos finos desde 2002.
+                    </p>
+                </div>
+
+                <!-- Coluna 2 -->
+                <div>
+                    <h4 class="font-serif font-bold text-brand-gold text-sm uppercase tracking-wider mb-4">Navegação</h4>
+                    <ul class="space-y-2 text-xs text-stone-300">
+                        <li><a href="#inicio" class="hover:text-brand-gold transition-colors">Início</a></li>
+                        <li><a href="#servicos" class="hover:text-brand-gold transition-colors">Serviços & Produtos</a></li>
+                        <li><a href="#sobre" class="hover:text-brand-gold transition-colors">Sobre Nós</a></li>
+                        <li><a href="#dados-cadastrais" class="hover:text-brand-gold transition-colors">Dados Cadastrais</a></li>
+                        <li><a href="#contato" class="hover:text-brand-gold transition-colors">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3 -->
+                <div>
+                    <h4 class="font-serif font-bold text-brand-gold text-sm uppercase tracking-wider mb-4">Resumo Cadastral</h4>
+                    <p class="text-xs text-stone-300 leading-relaxed">
+                        <strong class="text-white">CNPJ:</strong> 05.235.345/0001-48<br>
+                        <strong class="text-white">IE RJ:</strong> 77.436.38-3<br>
+                        <strong class="text-white">IE SP:</strong> 819.012.785.113<br>
+                        <strong class="text-white">Razão Social:</strong> Balai Kayu Comercio de Artigos de Decoracao LTDA
+                    </p>
+                </div>
+
+                <!-- Coluna 4 -->
+                <div>
+                    <h4 class="font-serif font-bold text-brand-gold text-sm uppercase tracking-wider mb-4">Site Oficial</h4>
+                    <p class="text-xs text-stone-300 mb-4">
+                        Acesse nosso portal principal para compras online e lançamentos de coleções.
+                    </p>
+                    <a href="https://www.balai.com.br/" target="_blank" rel="noopener noreferrer" 
+                       class="inline-flex items-center gap-2 text-xs font-bold text-brand-gold hover:text-white transition-colors">
+                        www.balai.com.br <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="border-t border-stone-800 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+                <p>&copy; 2002 - <span id="year"></span> Balai Kayu Comércio de Artigos de Decoração LTDA. Todos os direitos reservados.</p>
+                <p class="flex items-center gap-1">
+                    <span>Rio de Janeiro - RJ</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set dynamic current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle logic
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (mobileBtn && mobileMenu) {
+            mobileBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Close mobile menu on link click
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+        }
+
+        // Header Background Change on Scroll
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-md');
+            } else {
+                header.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body>
+</html>
